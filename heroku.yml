@@ -1,5 +1,4 @@
-services:
-  db:
+db:
     build: ./database/
-  app:
+app:
     build: ./app/
