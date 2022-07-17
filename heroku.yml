@@ -1,6 +1,6 @@
 build:
   docker:
-    app1: ./database/Dockerfile
+    app2: ./app/Dockerfile
 build:
   docker:
-    app2: ./app/Dockerfile
+    app1: ./database/Dockerfile
