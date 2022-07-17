@@ -1,4 +1,3 @@
-db:
-    build: ./database/
-app:
-    build: ./app/
+build:
+  docker:
+    web: docker-compose.yaml
