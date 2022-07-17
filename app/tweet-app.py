@@ -11,6 +11,7 @@ logging.basicConfig(filename='tweet_api.log',
 logger = logging.getLogger(__name__)
 
 load_dotenv(verbose=True)
+print("Application starting...")
 
 consumer_key = os.environ["API_Key"]
 consumer_secret = os.environ["API_Key_Secret"]
@@ -123,7 +124,10 @@ def main():
     print("Application is Completed...")
 
 
+
 main()
+
+print("Application stoping...")
 
 
 
