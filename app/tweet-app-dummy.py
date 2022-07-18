@@ -36,8 +36,8 @@ query = "#covid19"
 tweet_search_query = "#covid19 lang:en -is:retweet"
 
 # your start and end time for fetching tweets
-start_time = "2022-07-10T00:00:00Z"
-end_time = "2022-07-11T00:00:00Z"
+start_time = "2022-07-15T00:00:00Z"
+end_time = "2022-07-17T00:00:00Z"
 
 
 connection = psycopg2.connect(user=username, password=password, host=hostname, port=port, database=database)
