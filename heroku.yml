@@ -2,7 +2,6 @@ build:
     docker:
         db: database/Dockerfile
         web: app/Dockerfile
-run:
-    web: python3 test.py
+
 
         
