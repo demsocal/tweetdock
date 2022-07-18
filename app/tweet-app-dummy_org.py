@@ -109,6 +109,7 @@ def insert(row):
         logger.info(str(row))
         connection.commit()
     except Exception as error:
+        print(str(row))
         connection.rollback()
         logger.error("Error while inserting to PostgreSQL", error)
 
