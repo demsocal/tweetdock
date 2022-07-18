@@ -1,5 +1,6 @@
 build:
     docker:
-        app: app/Dockerfile
         db: database/Dockerfile
+        app: app/Dockerfile
+
         
