@@ -107,7 +107,7 @@ def create_row_to_insert():
     return
 
 
-def main():
+if __name__ == '__main__':
     print("Application is starting...")
     logger.info('Application is starting...')
 
@@ -125,7 +125,6 @@ def main():
 
 
 
-main()
 
 print("Application stoping...")
 
