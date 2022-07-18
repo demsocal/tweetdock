@@ -31,6 +31,13 @@ INSERT_SQL = '''
         VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
         '''
 
+CREATE_SQL = '''
+        create table tweets
+( tweet_id SERIAL PRIMARY KEY,created_at varchar(1000), text varchar(3000),
+source varchar(1000), name varchar(1000),
+username varchar(1000), location varchar(100),is_verified varchar(100), description varchar(3000))
+'''
+
 query = "#covid19"
 # Here we set up our search_query to fetch tweets with #covid19 but exclude retweets
 tweet_search_query = "#covid19 lang:en -is:retweet"
@@ -91,6 +98,7 @@ def create_the_dataset():
 
 def insert(row):
     try:
+        cursor.execute(CREATE_SQL)
         cursor.execute(INSERT_SQL, row)
         print(f"Insertion is done for the values...")
         logger.info("Insertion is done for the values...")
