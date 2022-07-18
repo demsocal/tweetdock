@@ -23,7 +23,7 @@ username = "lpfcewwewvookt"
 password = "a2b59c593d2827099fd3b9e2091bbbdffa55d787989fa1e6909e1fcb0896fa33"
 port = "5432"
 database = "de52rmjoakkjnj"
-hostname = "postgres://lpfcewwewvookt:a2b59c593d2827099fd3b9e2091bbbdffa55d787989fa1e6909e1fcb0896fa33@ec2-3-219-52-220.compute-1.amazonaws.com:5432/de52rmjoakkjnj"
+hostname = "ec2-3-219-52-220.compute-1.amazonaws.com"
 
 
 INSERT_SQL = ''' 
