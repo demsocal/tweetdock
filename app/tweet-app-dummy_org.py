@@ -105,6 +105,7 @@ def insert(row):
         cursor.execute(INSERT_SQL, row)
         print(f"Insertion is done for the values...")
         logger.info("Insertion is done for the values...")
+        print(str(row))
         logger.info(str(row))
         connection.commit()
     except Exception as error:

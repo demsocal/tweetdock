@@ -1,6 +1,5 @@
 build:
     docker:
-        db: database/Dockerfile
         web: app/Dockerfile
 
 
