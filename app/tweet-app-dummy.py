@@ -50,8 +50,12 @@ end_time = "2022-07-17T00:00:00Z"
 connection = psycopg2.connect(user=username, password=password, host=hostname, port=port, database=database)
 logger.info("Connection is created...")
 cursor = connection.cursor()
-logger.info("Cursor is created...")
 
+logger.info("Cursor is created...")
+try:
+    cursor.execute(CREATE_SQL)
+except Exception as e:
+    logger.error(e)
 
 client = tweepy.Client(bearer_token=bearer_token)
 
@@ -98,7 +102,6 @@ def create_the_dataset():
 
 def insert(row):
     try:
-        cursor.execute(CREATE_SQL)
         cursor.execute(INSERT_SQL, row)
         print(f"Insertion is done for the values...")
         logger.info("Insertion is done for the values...")
