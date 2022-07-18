@@ -18,11 +18,13 @@ consumer_secret = "HgNZoBsRAZg2fGtiMoOGAoHOzMU7IeqfYXUom7txqmWBQtjztp"
 access_token = "1382296867317325825-yfFRAcuM1mYeQlaHIs7QLnosuzPhNC"
 access_token_secret = "LmHbboVZD6obTwBiNdOPnl3cbav5KM4IIao2fc7WYows3"
 bearer_token = "AAAAAAAAAAAAAAAAAAAAAOXQegEAAAAAN3ttS28U9UzWbksPrqhLXwvWspQ%3DxHxAnm9PKieOK5MxDoI2yGoWnUB6T8B9BzhVi4EiokXqmx7SbW"
-hostname = "db"
-username = "admin"
-password = "admin"
+# hostname = "db"
+username = "lpfcewwewvookt"
+password = "a2b59c593d2827099fd3b9e2091bbbdffa55d787989fa1e6909e1fcb0896fa33"
 port = "5432"
-database = "postgrez"
+database = "de52rmjoakkjnj"
+hostname = "postgres://lpfcewwewvookt:a2b59c593d2827099fd3b9e2091bbbdffa55d787989fa1e6909e1fcb0896fa33@ec2-3-219-52-220.compute-1.amazonaws.com:5432/de52rmjoakkjnj"
+
 
 INSERT_SQL = ''' 
         INSERT INTO tweets (created_at, text, source, name, username, location, is_verified, description)
