@@ -1,4 +1,4 @@
-FROM postgres:latest
+FROM postgres:12.11
 ENV POSTGRES_PASSWORD admin
 ENV POSTGRES_USER admin
 ENV POSTGRES_DB postgrez

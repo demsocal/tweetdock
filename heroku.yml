@@ -1,4 +1,4 @@
 build:
     docker:
         db: database/Dockerfile
-        app: app/Dockerfile
+        app:    app/Dockerfile
