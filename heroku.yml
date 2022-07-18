@@ -1,8 +1,8 @@
 build:
     docker:
         db: database/Dockerfile
-        app: app/Dockerfile
+        web: app/Dockerfile
 run:
-    app: python3 test.py
+    web: python3 test.py
 
         
