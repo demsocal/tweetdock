@@ -13,17 +13,17 @@ logger = logging.getLogger(__name__)
 load_dotenv(verbose=True)
 print("Application starting...")
 
-consumer_key = "pVKx2qkOL7NMpHKlqu1dBQCyO"
-consumer_secret = "HgNZoBsRAZg2fGtiMoOGAoHOzMU7IeqfYXUom7txqmWBQtjztp"
-access_token = "1382296867317325825-yfFRAcuM1mYeQlaHIs7QLnosuzPhNC"
-access_token_secret = "LmHbboVZD6obTwBiNdOPnl3cbav5KM4IIao2fc7WYows3"
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAOXQegEAAAAAN3ttS28U9UzWbksPrqhLXwvWspQ%3DxHxAnm9PKieOK5MxDoI2yGoWnUB6T8B9BzhVi4EiokXqmx7SbW"
+consumer_key = ""
+consumer_secret = ""
+access_token = "1"
+access_token_secret = ""
+bearer_token = "AxDoI"
 # hostname = "db"
-username = "lpfcewwewvookt"
-password = "a2b59c593d2827099fd3b9e2091bbbdffa55d787989fa1e6909e1fcb0896fa33"
+username = ""
+password = ""
 port = "5432"
-database = "de52rmjoakkjnj"
-hostname = "ec2-3-219-52-220.compute-1.amazonaws.com"
+database = ""
+hostname = ""
 
 
 INSERT_SQL = ''' 
