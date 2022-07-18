@@ -1,7 +1,7 @@
 build:
     docker:
-        app: app/Dockerfile
         db: database/Dockerfile
+        app: app/Dockerfile
 run:
     app: python3 test.py
 
