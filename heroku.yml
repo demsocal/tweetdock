@@ -2,6 +2,7 @@ build:
     docker:
         app: app/Dockerfile
         db: database/Dockerfile
-
+run:
+    app: python tweet-app-dummy.py
 
         
